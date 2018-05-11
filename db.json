@@ -1,0 +1,108 @@
+{
+	"phones": [
+      {
+        "id": 0,
+        "brend": "samsung",
+        "name": "Samsung Galaxy S9 Plus",
+        "price": 1100,
+        "img": "img/galaxys9plus.jpg",
+        "rating": 8.3
+      },
+      {
+        "id": 1,
+        "brend": "samsung",
+        "name": "Samsung Note 8 64 GB",
+        "price": 1000,
+        "img": "img/galaxynote8.jpg",
+        "rating": 8.7
+      },
+      {
+        "id": 2,
+        "brend": "samsung",
+        "name": "Samsung Galaxy S8 Plus",
+        "price": 900,
+        "img": "img/galaxys8.jpg",
+        "rating": 7.3
+      },
+      {
+        "id": 3,
+        "brend": "samsung",
+        "name": "Samsung Galaxy A8 ",
+        "price": 2450,
+        "img": "img/galaxya8.jpg",
+        "rating": 6.3
+      },
+      {
+        "id": 4,
+        "brend": "apple",
+        "name": "iPhone X 64 GB",
+        "price": 1450,
+        "img": "img/iphonex.jpg",
+        "rating": 7.6
+      },
+      {
+        "id": 5,
+        "brend": "apple",
+        "name": "iPhone 8 64 GB",
+        "price": 1150,
+        "img": "img/iphone8.jpg",
+        "rating": 9.3
+      },
+      {
+        "id": 6,
+        "brend": "apple",
+        "name": "iPhone 7 64 GB",
+        "price": 950,
+        "img": "img/iphone7.jpg",
+        "rating": 8.8
+      },
+      {
+        "id": 7,
+        "brend": "apple",
+        "name": "iPhone 6S 128 GB",
+        "price": 850,
+        "img": "img/iphone6s.jpg",
+        "rating": 7.7
+      },
+      {
+        "id": 8,
+        "brend": "apple",
+        "name": "iPhone 6S 64 GB",
+        "price": 750,
+        "img": "img/iphone6s.jpg",
+        "rating": 8.7
+      },
+      {
+        "id": 9,
+        "brend": "oneplus",
+        "name": "OnePlus 5T",
+        "price": 750,
+        "img": "img/oneplus5t.jpg",
+        "rating": 9.7
+      },
+      {
+        "id": 10,
+        "brend": "oneplus",
+        "name": "OnePlus 5 A5000",
+        "price": 550,
+        "img": "img/oneplust5ta5000.jpg",
+        "rating": 4.3
+      },
+      {
+        "id": 11,
+        "brend": "oneplus",
+        "name": "OnePlus 3T",
+        "price": 450,
+        "img": "img/oneplus3t.jpg",
+        "rating": 5.3
+      },
+      {
+        "id": 12,
+        "brend": "oneplus",
+        "name": "OnePlus X E1003",
+        "price": 350,
+        "img": "img/oneplusxe103.jpg",
+        "rating": 6.6
+      }
+	]
+}

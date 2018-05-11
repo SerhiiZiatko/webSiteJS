@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moblie Online store</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+        integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header-section">
+      <h1 class="title">Mobile Online Store <i class="fas fa-mobile-alt"></i></h1>
+      <div class="basket">
+        <span class="basket-img"><i class="fas fa-shopping-cart shopping-cart"></i></span>
+        <div class="basket-items hide"><span class="quantity"></span></div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="container flex">
+    <aside class="filter-menu">
+
+      <form action="#" class="filters">
+        <label class="brend-title">
+          <input type="checkbox" data-type="samsung" class="filter-by-brand filter-param"> Samsung
+        </label>
+        <label class="brend-title">
+          <input type="checkbox" data-type="apple" class="filter-by-brand filter-param"> iPhone
+        </label>
+        <label class="brend-title">
+          <input type="checkbox" data-type="oneplus" class="filter-by-brand filter-param"> OnePlus
+        </label>
+      </form>
+
+    </aside>
+
+    <section class="main-section">
+
+      <div class="sorting">
+        <div class="sort-by-price sorting-menu">
+          <div class="price-up sorting-item" data-sort="_sort=price&_order=asc">
+            <span class="sort-img">Price<i class="fas fa-arrow-up"></i></span>
+          </div>
+          <div class="price-down sorting-item" data-sort="_sort=price&_order=desc">
+            <span class="sort-img">Price<i class="fas fa-arrow-down"></i></span>
+          </div>
+        </div>
+        <div class="sort-by-rating sorting-menu">
+          <div class="rating-up sorting-item" data-sort="_sort=rating&_order=asc">
+            <span class="sort-img">Rating<i class="fas fa-arrow-up"></i></span>
+          </div>
+          <div class="rating-down sorting-item" data-sort="_sort=rating&_order=desc">
+            <span class="sort-img">Rating<i class="fas fa-arrow-down"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <ul class="product-list">
+
+        </ul>
+      </div>
+      <div class="pagination">
+        <ul class="pagination-list">
+
+        </ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<div class="popup-basket hide">
+  <div class="popup-basket-content">
+    <div class="popup-wrapper">
+      <h2 class="title-basket">Goods in basket: </h2>
+      <ul class="goods-list">
+
+      </ul>
+
+      <div class="footer">
+        <div class="total-price"></div>
+        <button class="goods-buy">BUY</button>
+      </div>
+    </div>
+    <div class="popup-close"><i class="fas fa-times close-img"></i></div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
