@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*main form*/
+.wrapper {
+    display: flex;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header-info {
+   text-align: center;
+
+}
+.item-img {
+    width: 100px;
+    height: 200px;
+}
+.item-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #4CAF50;
+    border-radius: 4px 4px 4px 4px;
+    font-family: fantasy;
+}
+
+.item-info:hover {
+    background-color: rgba(76,175,80,0.8);
+}
+
+.site-bar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 60%;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.content-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sort {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cart {
+    float: right;
+    font-size: 50px;
+    color: #4CAF50;
+}
+.button-cart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-checkout {
+    display: block;
+    margin: 0 auto;
+}
+.button-cart:hover {
+    background-color: rgba(76,175,80,0.8);
+}
+
+
+.close:hover { background: #00d9ff; }
+.position {
+    display: inline-block;
+}
+.container-on-card{
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper-order-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.container {
+    padding: 10px 100px 10px 100px;
+    margin: 0 auto;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.span-order {
+    width: 20%;
+}
+.info {
+    background: #4CAF50;
+    padding: 20px;
+}
+.title {
+    font-family: fantasy;
+    font-size: 20px;
+}
+.order {
+    border: 1px solid #4CAF50;
+    opacity: 0.7%;
+}
