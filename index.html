@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myphone</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+          crossorigin="anonymous">
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+    <h1>MYPHONE</h1>
+    <button><i class="fas fa-shopping-cart"></i></button>
+</header>
+<div class = 'container del'>
+<aside class = 'aside container-prace del filters'>
+    <p>FILTERS</p>
+    <div>
+        <input id="apple" type="checkbox" name="mycheck1" class = 'apple brand'/> <span>Apple</span>
+    </div>
+    <div>
+        <input id="meizu" type="checkbox" name="mycheck2" class = 'meizu brand'/><span>Meizu</span>
+    </div>
+    <div>
+        <input id="samsung" type="checkbox" name="mycheck3" class = 'samsung brand'/><span>Samsung</span>
+    </div>
+    <div>
+        <input id="lenovo" type="checkbox" name="mycheck3" class = 'lenovo brand'/><span>Lenovo</span>
+    </div>
+</aside>
+<main class='main del'>
+    <div class = 'sorting container'>
+            <p>price<span class ='sortetBy' data-sort="_sort=price&_order=asc"><i class="fas fa-arrow-up"></i></span></p>
+            <p>price<span class ='sortetBy' data-sort="_sort=price&_order=desc"><i class="fas fa-arrow-down"></i></span></p>
+            <p>popular<span class ='sortetBy' data-sort="_sort=popular&_order=asc"><i class="fas fa-arrow-up"></i></span></p>
+            <p>popular<span class ='sortetBy' data-sort="_sort=popular&_order=desc"><i class="fas fa-arrow-down"></i></span></p>
+    </div>
+    <ul class="phone-conteiner phone-flex">
+
+    </ul>
+
+</main>
+</div>
+<footer class=''>
+    <div class=''>
+        <p>&copy «MYPHONE™» 2001–2018</p>
+    </div>
+
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>

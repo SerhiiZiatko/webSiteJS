@@ -1,0 +1,64 @@
+* {
+    color: darkgreen;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+.del {
+    border: 1px solid green;
+}
+.container-prace {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside {
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 200px;
+}
+p {
+    margin: 10px auto;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.main {
+    width: 1000px;
+}
+.phone-flex {
+display: flex;
+flex-wrap: wrap;
+}
+.buy {
+    color: black;
+    background-color:aquamarine;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.liBox {
+    display: block;
+    box-sizing:border-box;
+    width: 30%;
+    padding: 10px;
+}
+
+.spanPrice {
+    display: block;
+    font-weight: bold;
+}
+.divImg {
+    height: 340px;
+}
