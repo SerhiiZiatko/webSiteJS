@@ -1,0 +1,77 @@
+{
+  "item": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S9 Plus 64GB Midnight Black",
+      "im": "./img/s9.jpg",
+      "price": 1200,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 100,
+      "model": "samsung"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi Redmi 5 Plus 3/32GB Black",
+      "im": "./img/XiomiRdmi5Plus.jpg",
+      "price": 1100,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 150,
+      "model": "xiaomi"
+    },
+    {
+      "id": 3,
+      "name": "Huawei P20 Pro 6/128GB Twilight",
+      "im": "./img/huaweip20pro6128gb.jpg",
+      "price": 1150,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 280,
+      "model": "huawei"
+    },
+    {
+      "id": 4,
+      "name": "Apple iPhone X 64GB Silver",
+      "im": "./img/iphX.jpg",
+      "price": 900,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 350,
+      "model": "apple"
+    },
+    {
+      "id": 5,
+      "name": "Apple iPhone 7 32GB Rose Gold",
+      "im": "./img/iph7.jpg",
+      "price": 1300,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 10,
+      "model": "apple"
+    },
+    {
+      "id": 6,
+      "name": "Meizu M6 Note 3/32Gb (Black) ",
+      "im": "./img/m5.jpg",
+      "price": 1250,
+      "discripton" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 70,
+      "model": "meizu"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy J7 (2017) J730 Black",
+      "im": "./img/J7.jpg",
+      "price": 1300,
+      "discription" : "Screen (6.2, Super AMOLED, 2960х1440) / Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz) / Dual main camera: 12 Mp + 12 Mp, front: 8 Mp / RAM 6 GB / 64 GB of internal memory + microSD (up to 400 GB) / 3G / LTE / GPS / support for 2 SIM cards (Nano-SIM) / Android 8.0 (Oreo) / 3500 mA. It supports the installation of two SIM-cards or one SIM-card and a memory card. The slot for the second SIM card is combined with a slot for the memory card.",
+      "popularity": 700,
+      "model": "samsung"
+    }
+
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "samsung",
+      "price": 100,
+      "counter": 3
+    }
+
+  ]
+}

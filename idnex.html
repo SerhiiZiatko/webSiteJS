@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile E-shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header-info">
+            <span class="title">Mobile E-shop </span>
+            <a href="#openModal" id="cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <form class="order">
+                        <div class="info">
+                            <span class="span-order">Name</span>
+                            <span class="span-order">Price</span>
+                            <span class="span-order">Count</span>
+                        </div>
+                        <div class="container-on-card">
+
+                        </div>
+                    <button class="button btn-checkout" id="checkout">checkout</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper">
+                <div class="site-bar">
+                    <form id="filter-form">
+                        <filedset class="filter-section">
+                            <span>Model</span>
+                            <label><input name="model" value="samsung" type="checkbox">Samsung</label>
+                            <label><input name="model" value="xiaomi" type="checkbox">Xiaomi</label>
+                            <label><input name="model" value="huawei" type="checkbox">Huawei</label>
+                            <label><input name="model" value="apple" type="checkbox">Apple</label>
+                            <label><input name="model" value="meizu" type="checkbox">Meizu</label>
+                        </filedset>
+                        <button  class="submit button" id="submit">Search</button>
+
+                    </form>
+
+                </div>
+                <div class="content-section">
+                    <div class="sort">
+                        <button class="button" id="up">Price_UP</button> <br>
+                        <button class="button" id="down">Price_DOWN</button> <br>
+                        <button class="button" id="upPopularity">Popularity_UP</button> <br>
+                        <button class="button" id="downPopularity">Popularity_DOWN</button> <br>
+                    </div>
+                    <div class="content">
+
+                    </div>
+                </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
