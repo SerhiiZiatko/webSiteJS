@@ -1,0 +1,76 @@
+{
+  "mobile": [
+    {
+      "img": "https://bludiode.com/9969-tm_large_default/apple-iphone-x-256gb-lte-silver-hk-spec-mqa92zp-a.jpg",
+      "brand": "apple",
+      "price": 31115,
+      "id": 1,
+      "model": "IPhone X 256GB",
+      "popular": 7.5
+    },
+    {
+      "img": "https://bludiode.com/9969-tm_large_default/apple-iphone-x-256gb-lte-silver-hk-spec-mqa92zp-a.jpg",
+      "brand": "apple",
+      "price": 27300,
+      "model": "IPhone X 64GB",
+      "id": 2,
+      "popular": 7.7
+    },
+    {
+      "img": "https://store.storeimages.cdn-apple.com/4976/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-select-2018?wid=278&hei=350&fmt=png-alpha&.v=1521831197375",
+      "brand": "apple",
+      "price": 21970,
+      "id": 3,
+      "model": "IPhone 8 Plus 64GB",
+      "popular": 7.1
+    },
+    {
+      "img": "https://cdn.eglobalcentral.eu/images/detailed/62/samsung-galaxy-s9-plus-g965fd-dual-sim-4g-vvw8fd.jpg",
+      "brand": "samsung",
+      "price": 27999,
+      "model": "Galaxy S9",
+      "id": 4,
+      "popular": 8.5
+    },
+    {
+      "img": "https://images-na.ssl-images-amazon.com/images/I/41D6uwrZMOL.jpg",
+      "brand": "meizu",
+      "price": 7999,
+      "id": 5,
+      "model": "pro 7 64GB",
+      "popular": 8.1
+    },
+    {
+      "img": "https://cdn.eglobalcentral.eu/images/detailed/62/samsung-galaxy-s9-plus-g965fd-dual-sim-4g-vvw8fd.jpg",
+      "brand": "samsung",
+      "price": 27999,
+      "model": "Galaxy S9",
+      "id": 6,
+      "popular": 8.5
+    },
+    {
+      "img": "https://images-na.ssl-images-amazon.com/images/I/41D6uwrZMOL.jpg",
+      "brand": "meizu",
+      "price": 7999,
+      "id": 7,
+      "model": "pro 7 64GB",
+      "popular": 8.1
+    },
+    {
+      "img": "https://cdn.eglobalcentral.eu/images/detailed/62/samsung-galaxy-s9-plus-g965fd-dual-sim-4g-vvw8fd.jpg",
+      "brand": "samsung",
+      "price": 27999,
+      "model": "Galaxy S9",
+      "id": 8,
+      "popular": 8.5
+    },
+    {
+      "img": "http://sintetiki.net/media/2017/12/xiaomi-redmi-5-plus-1.png",
+      "brand": "xiomi",
+      "price": 6299,
+      "id": 9,
+      "model": "Redmi 5 Plus",
+      "popular": 8.3
+    }
+  ]
+}
