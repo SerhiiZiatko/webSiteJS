@@ -59,7 +59,7 @@ class ShopList{
                 `<img src = '${item.image}' alt = 'good'>` +
                 `<a href = '/webSiteJS/detailed.html?id=${item.id}'>${item.title}</a>` +
                 `<span class = 'price'>${item.price}</span>` +
-                `<button onclick = 'new Basket().addGoodToBasket(event)' class = 'button btn btn-danger'>Add to Basket</button>` +
+                `<button onclick = 'Basket.prototype.addGoodToBasket(event)' class = 'button btn btn-danger'>Add to Basket</button>` +
                 `</li>`;
             list.innerHTML += good;
         });
@@ -221,7 +221,7 @@ class Basket{
         onClick = onClick.bind(this);
         checkoutButton.addEventListener('click', onClick)
     }
-    
+
 }
 
 new ShopList();
