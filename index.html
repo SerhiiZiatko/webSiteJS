@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <div id="sort-block" class="section sort">
+            <button id="priceUp">Price-+</button>
+            <button id="priceDown">Price+-</button>
+            <button id="popUp">Pop-+</button>
+            <button id="popDown">Pop+-</button>
+        </div>
+        <div id="filters-block" class="section filters">
+            <ul class="list list-color">
+                <li class="filter-item">
+                    <label for="violet">
+                        <input type="checkbox" name="color" id="violet"> Violet
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="gray">
+                        <input type="checkbox" name="color" id="gray"> Gray
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="red">
+                        <input type="checkbox" name="color" id="red"> Red
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="white">
+                        <input type="checkbox" name="color" id="white"> White
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="black">
+                        <input type="checkbox" name="color" id="black"> Black
+                    </label>
+                </li>
+            </ul>
+            <ul class="list list-size">
+                <li class="filter-item">
+                    <label for="l">
+                        <input type="checkbox" name="size" id="l">L
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="m">
+                        <input type="checkbox" name="size" id="m">M
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="s">
+                        <input type="checkbox" name="size" id="s">S
+                    </label>
+                </li>
+            </ul>
+
+            <ul class="list list-style">
+                <li class="filter-item">
+                    <label for="casual">
+                        <input type="checkbox" name="style" id="casual">Casual
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="dress">
+                        <input type="checkbox" name="style" id="dress">Dress
+                    </label>
+                </li>
+                <li class="filter-item">
+                    <label for="sport">
+                        <input type="checkbox" name="style" id="sport">Sport
+                    </label>
+                </li>
+            </ul>
+            <button id="filter" class="filter-button">Filter</button>
+        </div>
+        </div>
+
+        <div id="items" class="section items-block">
+
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
