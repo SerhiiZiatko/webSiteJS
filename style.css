@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    width: 60%;
+    margin: 0 auto;
+    padding: 25px 0;
+    border-bottom: 2px solid grey;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li {
+    list-style: none;;
+}
+
+.items-block {
+    flex-wrap: wrap;
+}
+.item {
+    margin-bottom: 30px;
+}
+.filter-button {
+    width: 70%;
+    max-width: 200px;
+    max-height: 25px;
+    margin: 10px;
+}
