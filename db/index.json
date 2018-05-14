@@ -1,0 +1,125 @@
+{
+  "phones": [
+    {
+      "id": 0,
+      "brend": "samsung",
+      "name": "Samsung Galaxy S9 Plus",
+      "price": 1100,
+      "src": "http://telegram-online.ru/wp-content/uploads/2015/09/iphone.jpg"
+    },
+    {
+      "id": 1,
+      "brend": "samsung",
+      "name": "Samsung Note 8 64 GB",
+      "price": 1000,
+      "src": "https://www.afbshop.at/media/image/f4/22/d3/Iphone-4.jpg"
+    },
+    {
+      "id": 2,
+      "brend": "samsung",
+      "name": "Samsung Galaxy S8 Plus",
+      "price": 900,
+      "src": "https://mobizil.com/wp-content/uploads/2017/04/i5s-800x800.jpg"
+    },
+    {
+      "id": 3,
+      "brend": "samsung",
+      "name": "Samsung Galaxy A8 ",
+      "price": 450,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 4,
+      "brend": "apple",
+      "name": "iPhone X 64 GB",
+      "price": 1450,
+      "src": "https://i5.walmartimages.com/asr/280d4815-4a5b-4855-acb1-72587635d449_1.10ab6c248cc7fbdfa49ae303a2a9ceb0.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+    },
+    {
+      "id": 5,
+      "brend": "apple",
+      "name": "iPhone 8 64 GB",
+      "price": 1150,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 6,
+      "brend": "apple",
+      "name": "iPhone 7 64 GB",
+      "price": 950,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 7,
+      "brend": "apple",
+      "name": "iPhone 6S 64 GB",
+      "price": 750,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 8,
+      "brend": "apple",
+      "name": "iPhone 6S 64 GB",
+      "price": 750,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 9,
+      "brend": "oneplus",
+      "name": "OnePlus 5T",
+      "price": 776,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 10,
+      "brend": "oneplus",
+      "name": "OnePlus 5 A5000",
+      "price": 843,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 11,
+      "brend": "oneplus",
+      "name": "OnePlus 5T",
+      "price": 264,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    },
+    {
+      "id": 12,
+      "brend": "oneplus",
+      "name": "OnePlus 5 A5000",
+      "price": 456,
+      "src": "https://img2.elmir.ua/img/450088/3000/2000/mobilnyy_telefon_samsung_j500h_ds_galaxy_j5_duos_gold_sm-j500hzddsek.jpg"
+    }
+  ],
+  "backet": [
+    {
+      "name": "trash1",
+      "id": 1
+    },
+    {
+      "name": "trash2",
+      "id": 2
+    },
+    {
+      "name": "trash3",
+      "id": 3
+    },
+    {
+      "name": "trash4",
+      "id": 4
+    },
+    {
+      "name": "trash5",
+      "id": 5
+    },
+    {
+      "name": "trash6",
+      "id": 6
+    },
+    {
+      "name": "trash6",
+      "id": 7
+    }
+  ]
+}
