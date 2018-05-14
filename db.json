@@ -1,0 +1,114 @@
+{
+  "phone": [
+    {
+      "id": 1,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "apple",
+      "model": "6s",
+      "price": 30000,
+      "display": "2160x1080",
+      "os": "ios",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 2,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "samsung",
+      "model": "s6",
+      "price": 25000,
+      "display": "854x480",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 3,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "google",
+      "model": "nexus 5",
+      "price": 12000,
+      "display": "1280x720",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 4,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "huawei",
+      "model": "honor 6",
+      "price": 6000,
+      "display": "960x540",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 5,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "meizu",
+      "model": "mg8",
+      "price": 3000,
+      "display": "2160x1080",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 6,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "lenovo",
+      "model": "s820",
+      "price": 2000,
+      "display": "854x480",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 7,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "lg",
+      "model": "gh-6",
+      "price": 6000,
+      "display": "2160x1080",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 8,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "asus",
+      "model": "asq",
+      "price": 4000,
+      "display": "854x480",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 9,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "aser",
+      "model": "y",
+      "price": 7000,
+      "display": "2160x1080",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 10,
+      "img": "https://fakeimg.pl/300/",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "name": "china",
+      "model": "axaxaxa",
+      "price": 0,
+      "display": "854x480",
+      "os": "android",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+  ]
+}
