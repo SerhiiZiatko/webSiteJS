@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="basket">
+    <div class="basket__container"> 
+    </div>
+    <div class="basket__sum"></div>
+    <!-- <div class=""></div> -->
+    <button class="basket__close">close</button>
+  </div>
+  <header class="main-header">
+    <img src="http://via.placeholder.com/30x30" alt="logo" class="logo">
+    <div>
+        <button class="button basket-button">basket</button>
+        <span class="basket__length"></span>
+    </div>
+
+  </header>
+  <main class="main">
+    <aside class="filter">
+      <form action="">
+        <fieldset class="filter__section">
+          <legend>Model</legend>
+            <label><input name="name" value="apple" type="checkbox">apple</label>
+            <label><input name="name" value="samsung" type="checkbox">samsung</label>
+            <label><input name="name" value="google" type="checkbox">google</label>
+            <label><input name="name" value="huawei" type="checkbox">huawei</label>
+            <label><input name="name" value="meizu" type="checkbox">meizu</label>
+            <label><input name="name" value="lenovo" type="checkbox">lenovo</label>
+            <label><input name="name" value="lg" type="checkbox">lg</label>
+            <label><input name="name" value="asus" type="checkbox">asus</label>
+            <label><input name="name" value="aser" type="checkbox">aser</label>
+            <label><input name="name" value="china" type="checkbox">china</label>
+        </fieldset>
+        <!-- <fieldset class="filter__section">
+          <legend>price</legend>
+          <label>how: <input data-values="1000 50000" name="price" multiple type="range" min="1000" max="50000" step="1"></label>
+        </fieldset> -->
+        <filedset class="filter__section">
+          <legend>display</legend>
+          <label><input name="display" value="1280x720" type="checkbox">1280x720</label>
+          <label><input name="display" value="854x480" type="checkbox">854x480</label>
+          <label><input name="display" value="960x540" type="checkbox">960x540</label>
+          <label><input name="display" value="2160x1080" type="checkbox">2160x1080</label>
+        </filedset>
+        <filedset class="filter__section">
+          <legend>os</legend>
+          <label><input name="os" value="ios" type="checkbox">ios</label>
+          <label><input name="os" value="android" type="checkbox">android</label>
+        </filedset>
+        <button type="button" class="button form__submit">submit</button>
+      </form>
+
+    </aside>
+    <div class="sort">
+        <div>
+          <button class="sort__height" name="price" value="height">height</button>
+          <button class="sort__lowe" name="price" value="low">low</button>
+        </div>
+        <div>
+          <button class="sort__top" name="id" value="low">top</button>
+          <button class="sort__bottom" name="id" value="height">no top</button>
+        </div>
+      </div>
+    <section class="app-container">
+    </section>
+  </main>
+  <footer class="main-footer">
+    it is footer
+  </footer>
+  <script src="index.js"></script>
+
+  <template>
+    <div class="basket__cell">
+      <button class="basket__clear">x</button>
+      <img class="basket__img">
+      <div class="basket__description">
+        <p class="basket__title"></p>
+        <p class="basket__price"></p>
+      </div>
+      <input type="text">
+      <div class="basket__all">
+        <p class="basket__sum"></p>
+        <span class="basket__all-price"><b class="basket__basket__prices"></b>грн</span>
+      </div>
+    </div>
+  </template>  
+
+</body>
+</html>
+
+<!-- price lov he : popular lov he :  -->
