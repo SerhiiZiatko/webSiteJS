@@ -1,0 +1,88 @@
+{
+  "catalog": [
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "samsung",
+      "price": "10$",
+      "rait": "1",
+      "id": 1
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "samsung",
+      "price": "20$",
+      "rait": "4",
+      "id": 2
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "samsung",
+      "price": "30$",
+      "rait": "5",
+      "id": 3
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "meizu",
+      "price": "10$",
+      "rait": "3",
+      "id": 4
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "meizu",
+      "price": "20$",
+      "rait": "4",
+      "id": 5
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "meizu",
+      "price": "30$",
+      "rait": "2",
+      "id": 6
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "lenovo",
+      "price": "10$",
+      "rait": "3",
+      "id": 7
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "lenovo",
+      "price": "20$",
+      "rait": "5",
+      "id": 8
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "lenovo",
+      "price": "30$",
+      "rait": "2",
+      "id": 9
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "samsung",
+      "price": "30$",
+      "rait": "4",
+      "id": 10
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "samsung",
+      "price": "30$",
+      "rait": "4",
+      "id": 11
+    },
+    {
+      "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/nova2/nova2-listimage-black.png",
+      "name": "lenovo",
+      "price": "20$",
+      "rait": "2",
+      "id": 12
+    }
+  ]
+}
