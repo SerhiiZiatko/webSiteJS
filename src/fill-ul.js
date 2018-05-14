@@ -9,7 +9,6 @@ import getData from "./get-data";
 
 const createUlFragment = array => {
     const fragment = document.createDocumentFragment();
-    console.log(array)
     for (let item of array) {
         const li = createElemWithClass("li", "list-item");
         let {
@@ -30,22 +29,21 @@ const createUlFragment = array => {
     return fragment;
 }
 
-const createNewUl = (id, array, callback = createUlFragment) => {
-    const ul = document.getElementById(id);
+const createNewUl = (array, callback = createUlFragment) => {
+    const ul = document.getElementById("gallery-list");
     const fragment = callback(array);
     ul.appendChild(fragment);
 }
 
-export const renderList = async (id, url,callback = createNewUl) => {
+export const renderList = async (url,callback = createNewUl) => {
     const array = await getData();
-    console.log(array)
-    return callback(id, array);
+    return callback(array);
     
 }
-export const reRenderList = async (id, url,callback = createNewUl) => {
+export const reRenderList = async (url,callback = createNewUl) => {
     const array = await getData(url);
-    const ul = document.getElementById(id);
+    const ul = document.getElementById("gallery-list");
     ul.innerHTML = null;
-    return callback(id,array);
+    return callback(array);
     
 }

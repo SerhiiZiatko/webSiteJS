@@ -8,7 +8,7 @@ import { generateLink } from "./generate-link";
 ( () => {
     renderList("gallery-list");
     declareHandlers();
-    reRenderList("gallery-list",generateLink({
+    reRenderList(generateLink({
         sort: "price",
         order: "asc"
     }))
