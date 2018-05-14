@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" 
-    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
 <link href="style.css" rel="stylesheet"></head>
 
 <body>
@@ -37,7 +35,19 @@
                 </div>
             </div>
         </div>
-        <div class="sort">SORT</div>
+        <div class="sort">
+            <h2>sort</h2>
+            <span>
+                <i class="fas fa-arrow-up" data-sort="price" data-order="desc"></i>
+                <span>Price</span>
+                <i class="fas fa-arrow-down" data-sort="price" data-order="asc"></i>
+            </span>
+            <span>
+                <i class="fas fa-arrow-up"></i>
+                <span>Rating</span>
+                <i class="fas fa-arrow-down"></i>
+            </span>
+        </div>
         <div class="gallery">
             <ul id="gallery-list"></ul>
         </div>
